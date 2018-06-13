@@ -19,6 +19,7 @@ class BlablacarSpider(scrapy.Spider):
             departure= r.css('.js-tip-custom::text').extract_first()
             fare= r.xpath('/html/body/div[2]/div/div[3]/div[2]/div/div[3]/ul/li[3]/a/article/div[3]/div[1]/strong/span').extract_first().strip()
             availablity= r.css('.availability').extract()
+			starttime=r.xpath('/html/body/div[2]/div/div[3]/div[2]/div/div[3]/ul/li[8]/a/article/div[2]/h3[1]').extract()
             image= r.xpath('/html/body/div[2]/div/div[3]/div[2]/div/div[3]/ul/li[1]/a/article/div[1]/div[1]/div[1]/div/img').extract()[0]
             item = RiderItem()
             item['name'] = name
@@ -30,6 +31,7 @@ class BlablacarSpider(scrapy.Spider):
             item['departure_point']=departure
             item['fare']=fare
             item['availablity']=availablity
+			item['starttime']=starttime
             item['image']=image
             yield item
         nextPageLinkSelector = response.css('.pagination .next:not(.disabled) a').extract()

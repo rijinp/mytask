@@ -21,6 +21,7 @@ class RiderItem(scrapy.Item):
     fare=scrapy.Field()
     availablity=scrapy.Field()
     image=scrapy.Field()
+	starttime=scrapy.Field()
     
     
     
