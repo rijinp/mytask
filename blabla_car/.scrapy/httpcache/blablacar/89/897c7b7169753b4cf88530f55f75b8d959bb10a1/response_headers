@@ -1,0 +1,17 @@
+Server: nginx
+Date: Wed, 13 Jun 2018 20:24:52 GMT
+Content-Type: text/html; charset=UTF-8
+X-Protected-By: Sqreen
+Cache-Control: no-cache
+Location: https://www.blablacar.in/ride-sharing/new-delhi/chandigarh/
+X-Frame-Options: SAMEORIGIN
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Permitted-Cross-Domain-Policies: none
+Set-Cookie: user_id=deleted; expires=Thu, 01-Jan-1970 00:00:01 GMT; Max-Age=0; path=/; HttpOnly
+Set-Cookie: flash_bag=deleted; expires=Thu, 01-Jan-1970 00:00:01 GMT; Max-Age=0; path=/; HttpOnly
+Set-Cookie: Rvp-Stat=M; Path=/
+X-Served-By: front20
+Content-Encoding: gzip
+X-Varnish: 847786255
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload

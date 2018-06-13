@@ -1,0 +1,5 @@
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en
+User-Agent: simple_crawler (+http://www.yourdomain.com)
+Accept-Encoding: gzip,deflate
+Cookie: test_nsp=0; PHPSESSID=224c85f84cff147bb90fa1e33c5bfd57017ff1b5~nsg9ta6g686inm890g60oasauo; Rvp-Stat=M; vstr_id=uUe8MFshe4sQSwUFBBruAg==; datadome=AHrlqAAAAAMAHPvQI7uuw7gAiWGC5Q==
