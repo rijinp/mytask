@@ -5,7 +5,7 @@ from ..items import RiderItem
 class BlablacarSpider(scrapy.Spider):
      name = 'blablacar'
      allowed_domains = ['blablacar.in']
-     start_urls = ['https://www.blablacar.in/ride-sharing/new-delhi/chandigarh/?fn=New+Delhi&fc=28.6139391%7C77.2090212&fcc=IN&fp=0&tn=Chandigarh&tc=30.7333148%7C76.7794179&tcc=IN&tp=0&sort=trip_date&order=asc&radius=48.858&limit=10&page=2&v=default','https://www.blablacar.in/ride-sharing/new-delhi/chandigarh/?fn=New+Delhi&fc=28.6139391%7C77.2090212&fcc=IN&fp=0&tn=Chandigarh&tc=30.7333148%7C76.7794179&tcc=IN&tp=0&sort=trip_date&order=asc&radius=48.858&limit=10&page=25&v=default','https://www.blablacar.in/ride-sharing/new-delhi/chandigarh/?fn=New+Delhi&fc=28.6139391%7C77.2090212&fcc=IN&fp=0&tn=Chandigarh&tc=30.7333148%7C76.7794179&tcc=IN&tp=0&sort=trip_date&order=asc&radius=48.858&limit=10&page=4&v=default']
+     start_urls = ['https://www.blablacar.in/ride-sharing/new-delhi/chandigarh','https://www.blablacar.in/ride-sharing/new-delhi/chandigarh/?fn=New+Delhi&fc=28.6139391%7C77.2090212&fcc=IN&fp=0&tn=Chandigarh&tc=30.7333148%7C76.7794179&tcc=IN&tp=0&sort=trip_date&order=asc&radius=48.858&limit=10&page=2&v=default','https://www.blablacar.in/ride-sharing/new-delhi/chandigarh/?fn=New+Delhi&fc=28.6139391%7C77.2090212&fcc=IN&fp=0&tn=Chandigarh&tc=30.7333148%7C76.7794179&tcc=IN&tp=0&sort=trip_date&order=asc&radius=48.858&limit=10&page=25&v=default','https://www.blablacar.in/ride-sharing/new-delhi/chandigarh/?fn=New+Delhi&fc=28.6139391%7C77.2090212&fcc=IN&fp=0&tn=Chandigarh&tc=30.7333148%7C76.7794179&tcc=IN&tp=0&sort=trip_date&order=asc&radius=48.858&limit=10&page=4&v=default']
 
      def parse(self, response):
         riders = response.css('.trip-search-results li')

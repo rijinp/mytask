@@ -1,0 +1,19 @@
+Server: nginx
+Date: Wed, 13 Jun 2018 20:16:15 GMT
+Content-Type: text/html; charset=UTF-8
+X-Datadome: protected
+Set-Cookie: datadome=AHrlqAAAAAMAHPvQI7uuw7gAiWGC5Q==;Path=/;Domain=blablacar.in;Expires=Thu, 13-Jun-2019 20:16:15 GMT;Max-Age=31536000
+Set-Cookie: user_id=deleted; expires=Thu, 01-Jan-1970 00:00:01 GMT; Max-Age=0; path=/; HttpOnly
+Set-Cookie: flash_bag=deleted; expires=Thu, 01-Jan-1970 00:00:01 GMT; Max-Age=0; path=/; HttpOnly
+Set-Cookie: Rvp-Stat=M; Path=/
+X-Protected-By: Sqreen
+Cache-Control: no-cache
+X-Frame-Options: SAMEORIGIN
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Permitted-Cross-Domain-Policies: none
+X-Served-By: front17
+Content-Encoding: gzip
+X-Varnish: 842750384
+Accept-Ranges: bytes
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload

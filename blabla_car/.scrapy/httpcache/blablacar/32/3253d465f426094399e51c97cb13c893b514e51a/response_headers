@@ -1,0 +1,20 @@
+Server: nginx
+Date: Wed, 13 Jun 2018 20:16:12 GMT
+Content-Type: text/plain; charset=UTF-8
+Set-Cookie: test_nsp=0; Expires=Sun Jul 14 12:46:11 2019; Path=/; Secure
+Set-Cookie: PHPSESSID=224c85f84cff147bb90fa1e33c5bfd57017ff1b5~nsg9ta6g686inm890g60oasauo; path=/; secure; HttpOnly
+Set-Cookie: user_id=deleted; expires=Thu, 01-Jan-1970 00:00:01 GMT; Max-Age=0; path=/; HttpOnly
+Set-Cookie: flash_bag=deleted; expires=Thu, 01-Jan-1970 00:00:01 GMT; Max-Age=0; path=/; HttpOnly
+Set-Cookie: Rvp-Stat=M; Path=/
+Set-Cookie: vstr_id=uUe8MFshe4sQSwUFBBruAg==; expires=Sat, 13-Jul-19 20:16:12 GMT; path=/
+X-Protected-By: Sqreen
+Cache-Control: no-cache
+X-Frame-Options: SAMEORIGIN
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Permitted-Cross-Domain-Policies: none
+X-Served-By: front23
+Content-Encoding: gzip
+X-Varnish: 836845038
+Accept-Ranges: bytes
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
